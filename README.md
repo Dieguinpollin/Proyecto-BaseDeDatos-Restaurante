@@ -1,3 +1,7 @@
 # Proyecto-BaseDeDatos-Restaurante
 
-Este proyecto es fomentado en base al aprendizaje de la materia de Diesño de Base ded Datos, el cual, yo como Desarrollador fomente un poco mas de mis conocimeientos anteriores para darle una mejor visibilidad a la base de datos y esta sea funcional, por ello proporcione una carpeta con todos los codigos  PHP, CSS y HTML. Con ello pues conecto mis conocimientos y creo algo nuevo, mas aparte es algo que me gusta y espero que a otras personas de igual forma les apasione como a mi me apasion realizar esta sección.
+Este proyecto fue desarrollado a partir de los conocimientos adquiridos en la materia de Diseño de Base de Datos. Como desarrollador, reforcé y amplié mis conocimientos previos para lograr una mejor estructuración y visualización de la base de datos, asegurando que sea funcional y eficiente.
+
+Por ello, el proyecto incluye una carpeta que contiene todos los archivos necesarios, como código en PHP, CSS y HTML.
+
+Además, este proyecto refleja algo que realmente me apasiona, y espero que otras personas puedan disfrutarlo y encontrar en él el mismo interés
