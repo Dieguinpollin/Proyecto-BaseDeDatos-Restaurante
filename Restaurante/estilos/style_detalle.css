@@ -1,0 +1,133 @@
+
+/* --- ESTILOS GENERALES Y FONDO --- */
+body { 
+    font-family: 'Arial', sans-serif; 
+    background-color: #DC143C; /* Tu rojo carmesí */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+    padding: 20px 0;
+}
+
+/* --- CONTENEDOR DEL FORMULARIO --- */
+.formulario-caja { 
+    background-color: white; 
+    padding: 30px; 
+    border-radius: 8px; 
+    width: 100%; 
+    max-width: 550px; /* Un poquito más ancho para que quepan bien los platillos */
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2); 
+    box-sizing: border-box;
+}
+
+h2 { 
+    text-align: center; 
+    color: #333; 
+    margin-top: 0; 
+    margin-bottom: 5px;
+}
+
+/* Clase extra que usa tu detalle_pedido.php */
+.subtitulo {
+    text-align: center; 
+    color: #666; 
+    font-size: 14px; 
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+/* --- ETIQUETAS Y CAJAS DE TEXTO --- */
+label { 
+    font-weight: bold; 
+    color: #555; 
+    display: block; 
+    margin-top: 15px; 
+    margin-bottom: 5px; 
+    font-size: 14px;
+}
+
+input[type="number"], 
+select { 
+    width: 100%; 
+    padding: 12px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 15px; 
+    background-color: #fcfcfc;
+}
+
+/* Al hacer clic en la caja, se pinta de tu color rojo */
+input:focus, select:focus {
+    border-color: #DC143C;
+    outline: none;
+    background-color: #fff;
+}
+
+/* --- MENSAJES DE ALERTA --- */
+.alerta-exito {
+    color: #155724; 
+    background-color: #d4edda; 
+    padding: 15px; 
+    border-radius: 5px; 
+    text-align: center; 
+    margin-bottom: 15px;
+    border: 1px solid #c3e6cb;
+}
+
+.alerta-error {
+    color: #721c24; 
+    background-color: #f8d7da; 
+    padding: 15px; 
+    border-radius: 5px; 
+    text-align: center; 
+    margin-bottom: 15px;
+    border: 1px solid #f5c6cb;
+}
+
+/* --- BOTONES Y ENLACES --- */
+.btn-guardar { 
+    background-color: #DC143C; 
+    color: white; 
+    padding: 12px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-size: 16px; 
+    font-weight: bold; 
+    margin-top: 25px; 
+    transition: background-color 0.3s; 
+}
+
+/* Le puse un tono un poco más oscuro al hacer hover para que se note el efecto */
+.btn-guardar:hover { 
+    background-color: #b01030; 
+}
+
+/* --- EL BOTÓN DE REGRESAR (ESTILO GRIS SÓLIDO) --- */
+.btn-regresar { 
+    display: block; /* Esto hace que tome el 100% del ancho como un botón real */
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 12px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-size: 16px; 
+    font-weight: bold; 
+    margin-top: 20px; 
+    transition: background-color 0.3s; 
+    text-decoration: none; /* Quita la raya azul de enlace */
+}
+
+.btn-regresar:hover { 
+    background-color: #c8c8c8; /* Gris más oscuro al pasar el ratón */
+    color: #333; 
+}
